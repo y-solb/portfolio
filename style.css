@@ -377,6 +377,7 @@ p {
   opacity: 0.8;
   transform: translateY(0px);
 }
+
 .project__description h3 {
   color: var(--color-white);
 }
@@ -463,28 +464,35 @@ p {
   .navbar__toggle-btn {
     display: block;
   }
+
   #navbar {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .navbar__menu {
     flex-direction: column;
     text-align: center;
     width: 100%;
     display: none;
   }
+
   .about__majors {
     flex-direction: column;
   }
+
   .major {
     margin-bottom: 38px;
   }
+
   .skillset {
     flex-direction: column;
   }
+
   .project {
     flex-grow: 1;
   }
+
   .testimonial__avatar {
     width: 80px;
     height: 80px;
