@@ -12,7 +12,7 @@ document.addEventListener("scroll", () => {
   }
 });
 
-//Handle scrolling when tapping on the navbar menu
+// Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector(".navbar__menu");
 navbarMenu.addEventListener("click", (e) => {
   const target = e.target;
@@ -30,7 +30,7 @@ navbarToggleBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
 });
 
-//Handle click on 'contact me' button on home
+// Handle click on 'contact me' button on home
 const homeContactBtn = document.querySelector(".home__contact");
 homeContactBtn.addEventListener("click", () => {
   scrollIntoView("#contact");
@@ -70,7 +70,7 @@ workBtnContainer.addEventListener("click", (e) => {
     return;
   }
 
-  //Remove selection from the previous item and select the new one
+  // Remove selection from the previous item and select the new one
   const active = document.querySelector(".category__btn.selected");
   active.classList.remove("selected");
   const target = e.target.nodeName === "BUTTON" ? e.target : e.target.parentNode;
